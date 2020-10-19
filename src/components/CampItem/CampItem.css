@@ -1,0 +1,79 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 1rem;
+  cursor: pointer;
+  max-width: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-radius: 1rem 1rem 0 0;
+  max-width: 20rem;
+}
+
+.content {
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h4 {
+  color: #EC9121;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.content p {
+  margin-top: 1.5rem;
+  color: #b1b1b1;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.trash {
+  background-color: red;
+  border: 0;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.trash:hover {
+  background-color: #b30000;
+}
+
+.edit {
+  background-color:#EC9121;
+  border: 0;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 1rem;
+}
+
+.edit:hover {
+  background-color: #ff9900;
+}

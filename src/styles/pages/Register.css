@@ -1,0 +1,89 @@
+#page-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+#page-register .logo-camping-fire {
+  width: 20.5rem;
+}
+
+#page-register .btn-back {
+  margin-top: 3rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  background-color: #EC9121;
+  border: 0;
+  border-radius: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#page-register .btn-back:hover {
+  background-color: #00cc00;
+}
+
+#page-register .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 4rem;
+  padding: 4rem;
+  background-color: #eeeeee;
+}
+
+#page-register .container h1 {
+  color: #EC9121;
+  margin-bottom: 2rem;
+}
+
+#page-register .container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-register .container form label {
+  color: #EC9121;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+#page-register .container form input {
+  padding: 0.4rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+#page-register .container form select {
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+#page-register .container form textarea {
+  resize: none;
+}
+
+#page-register .container button {
+  margin-top: 3rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  background-color: #EC9121;
+  border: 0;
+  border-radius: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#page-register .container button:hover {
+  background-color: #00cc00;
+}
+

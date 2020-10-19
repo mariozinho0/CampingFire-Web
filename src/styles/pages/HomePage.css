@@ -1,0 +1,115 @@
+#page-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+#page-home .logo-camping-fire {
+  width: 20.5rem;
+}
+
+#page-home .btn-register {
+  margin-top: 3rem;
+  width: 18.5rem;
+  height: 2.5rem;
+  background-color: #EC9121;
+  border: 0;
+  border-radius: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#page-home .btn-register:hover {
+  background-color: #00cc00;
+}
+
+#page-home .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#page-home .search input {
+  height: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2rem 0 0 2rem;
+  border: 1px solid #EC9121;
+  color: #eeeeee;
+}
+
+#page-home .search button {
+  height: 2.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0;
+  border-radius: 0 2rem 2rem 0;
+  background-color: #EC9121;
+  border: 1px solid #EC9121;
+  cursor: pointer;
+  color: #eeeeee;
+  transition: background-color 0.2s;
+}
+
+#page-home .search button:hover {
+  background-color: #00cc00;
+  border: 1px solid #00cc00;
+}
+
+#page-home .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 4rem;
+  padding: 4rem;
+  background-color: #eeeeee;
+}
+
+#page-home .container .cards {
+  display: flex;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.link-to {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width: 1700px) {
+  #page-home .container .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1320px) {
+  #page-home .container .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 920px) {
+  #page-home .container .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  #page-home .container {
+    padding: 1rem;
+  }
+  #page-home .container .cards {
+    grid-template-columns: 1fr;
+  }
+}
